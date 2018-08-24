@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>äFrosch - Webclient</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="center">
+      <div>
+        <table class="center-table">
+          <tr>
+            <td>
+              <h1 style="text-align: center;">ä Frosch</h1>
+            </td>
+
+
+            <td>
+              <img src="img/frog.png" alt="Frosch">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+               <div style="text-align:center;">
+                 <button onclick="playSound()" class="button"><img src="img/icon.png" alt=""></button>
+               </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <script type="text/javascript">
+      function playSound () {
+    document.getElementById('play').play();}
+
+      </script>
+
+        <audio id="play" src="audio/frosch.wav"></audio>
+
+
+
+
+
+    </div>
+  </body>
+</html>
